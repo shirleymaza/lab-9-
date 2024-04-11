@@ -13,4 +13,12 @@ def decoder(password):
         new_digit = str((int(digit) - 3) % 10)
         result += new_digit
     return result
+
+#my code
+def menu():
+    print("Menu")
+    print("-------------")
+    print("1. Encode")
+    print("2. Decode")
+    print("3. Quit")
     
